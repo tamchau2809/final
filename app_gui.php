@@ -86,7 +86,6 @@ function loadData() {
                     $('<td>').text(val._tenure),
                     $('<td>').text(val._loan_purpose), 
                     $('<td>').text(val._industry),
-                    // $('<td>').text(imgStr(val._url)),
                     // $('<td>').append(imgStr(val._url)),
                     $('<td style="width: 250px">').append(
                         `<div class="gallery gallery-widget" data-toggle="lightbox-gallery" >
