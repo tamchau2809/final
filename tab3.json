@@ -1,0 +1,85 @@
+{
+	"tab3":
+	[
+		{
+			"label" : "Contact Details",
+			"type" : "textviewColumn",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : false
+		},
+		{
+			"label" : "Address:",
+			"type" : "edittext",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Current same as permanent:",
+			"type" : "checkbox",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : false
+		},
+		{
+			"label" : "Telephone:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Mobile:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Email:",
+			"type" : "edittextemail",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Reference Details:",
+			"type" : "textviewColumn",
+			"value" : "",
+			"url" : null,
+			"column" : "2",
+			"require" : false
+		},
+		{
+			"label" : "Reference Name:",
+			"type" : "edittext",
+			"value" : "",
+			"url" : null,
+			"column" : "2",
+			"require" : true
+		},
+		{
+			"label" : "Relationship:",
+			"type" : "spinner",
+			"value" : "Spouse",
+			"url" : null,
+			"column" : "2",
+			"require" : true
+		},	
+		{
+			"label" : "Contact Number:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : null,
+			"column" : "2",
+			"require" : true
+		}
+	]
+}

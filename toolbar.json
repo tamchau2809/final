@@ -1,0 +1,51 @@
+{
+    "toolbar": [
+        {
+                "id": "0",
+                "name": "LOAN"
+        },
+        {
+                "id": "1",
+                "name": "PERSONAL"
+        },
+        {
+                "id": "2",
+                "name": "CONTACT"
+        },
+        {
+                "id": "3",
+                "name": "EMPLOYMENT"
+        },
+        {
+                "id": "4",
+                "name": "DOCUMENT"
+        },
+        {
+                "id": "5",
+                "name": "CONFIRM"
+        },
+        {
+                "id": "6",
+                "name": "APPROVE"
+        }
+    ],
+	"url":
+	[
+		{
+			"id":"GET_TAB_1",
+			"link": "http://192.168.16.41/androidapp/tab1.json"
+		},
+		{
+			"id":"GET_TAB_2",
+			"link": "http://192.168.16.41/androidapp/tab2.json"
+		},
+		{
+			"id":"GET_TAB_3",
+			"link": "http://192.168.16.41/androidapp/tab3.json"
+		},
+		{
+			"id":"GET_TAB_4",
+			"link": "http://192.168.16.41/androidapp/tab4.json"
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"tab2":
+	[
+		{
+			"label" : "Personal Information",
+			"type" : "textviewColumn",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : false
+		},
+		{
+			"label" : "Name:",
+			"type" : "edittext",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Date of Birth:",
+			"type" : "textviewDate",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Identity Card Num:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Date of Issue:",
+			"type" : "textviewDate",
+			"value" : "",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Education:",
+			"type" : "spinner",
+			"value" : "Undergraduate",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Gender:",
+			"type" : "spinner",
+			"value" : "Male, Female",
+			"url" : null,
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Dependent Information",
+			"type" : "textviewColumn",
+			"value" : "",
+			"url" : null,
+			"column" : "2",
+			"require" : false
+		},
+		{
+			"label" : "Marital Status:",
+			"type" : "spinner",
+			"url" : null,
+			"value" : "Single,Married,Divorced,Widowed",
+			"column" : "2",
+			"require" : true
+		},
+		{
+			"label" : "Number of Children:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : null,
+			"column" : "2",
+			"require" : true
+		}
+	]
+}

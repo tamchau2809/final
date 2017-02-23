@@ -1,0 +1,77 @@
+{
+	"tab1":
+	[
+		{
+			"label" : "Loan Details",
+			"type" : "textviewColumn",
+			"value" : "",
+			"url" : "",
+			"column" : "1",
+			"require" : false
+		},
+		{
+			"label" : "Loan Type:",
+			"type" : "spinner",
+			"value" : "UPL, TEZT",
+			"url" : "http://192.168.16.41/androidapp/tabData.php",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Loan Amount:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : "",
+			"column" : "1",
+			"require" : false
+		},
+		{
+			"label" : "Tenure:",
+			"type" : "spinner",
+			"value" : "16,24,36,48",
+			"url" : "http://192.168.16.41/androidapp/tabData.php",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Loan Purpose:",
+			"type" : "spinner",
+			"value" : "Renovation",
+			"url" : "http://192.168.16.41/androidapp/tabData.php",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Max Interest:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : "",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Monthly Payment",
+			"type" : "textviewColumn",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : false
+		},
+		{
+			"label" : "Monthly Payment:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : true
+		},
+		{
+			"label" : "Last Payment:",
+			"type" : "textviewDate",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : true
+		}
+	]
+}

@@ -1,0 +1,109 @@
+{
+	"tab4":
+	[
+		{
+			"label" : "Employment Details",
+			"type" : "textviewColumn",
+			"value" : "",
+			"url" : "",
+			"column" : "1",
+			"require" : false
+		},
+		{
+			"label" : "Working Status:",
+			"type" : "spinner",
+			"value" : "Casual,Full-time,Part-time",
+			"url" : "http://192.168.16.41/androidapp/tabData.php",
+			"column" : "1",
+			"require" : true
+		},	
+		{
+			"label" : "Employer:",
+			"type" : "edittext",
+			"value" : "",
+			"url" : "",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Employer Address:",
+			"type" : "edittext",
+			"value" : "",
+			"url" : "",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Company Type:",
+			"type" : "spinner",
+			"value" : "Public,Private,Sthing",
+			"url" : "http://192.168.16.41/androidapp/tabData.php",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Industry:",
+			"type" : "spinner",
+			"value" : "16,24,36,48",
+			"url" : "",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Income Details",
+			"type" : "textviewColumn",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : false
+		},
+		{
+			"label" : "Date Joined:",
+			"type" : "textviewDate",
+			"value" : "",
+			"url" : "",
+			"column" : "1",
+			"require" : true
+		},
+		{
+			"label" : "Designation:",
+			"type" : "edittext",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : true
+		},
+		{
+			"label" : "Salary Income:",
+			"type" : "edPlusNumberA",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : true
+		},
+		{
+			"label" : "Other Income:",
+			"type" : "edPlusNumberA",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : true
+		},
+		{
+			"label" : "Total Income:",
+			"type" : "edPlusResultA",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : false
+		},
+		{
+			"label" : "Employer Contact:",
+			"type" : "edittextnumber",
+			"value" : "",
+			"url" : "",
+			"column" : "2",
+			"require" : true
+		}
+	]
+}
